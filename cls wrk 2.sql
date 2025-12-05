@@ -1,6 +1,5 @@
 
 SELECT * FROM `products`
-CREATE TABLE `stores`.`products` (`ID` INT NOT NULL , `name` VARCHAR(20) NOT NULL , `category` VARCHAR(20) NOT NULL , `price` INT NOT NULL , `in_stock` VARCHAR(20) NOT NULL ) ENGINE = InnoDB;
 INSERT INTO products VALUES(1,'mobiles','electronics',300,'yes');
 INSERT INTO products VALUES(2,'icecream','sweets',400,'yes');
 INSERT INTO products VALUES(3,'table','furniture',2000,'yes'), (3,'laptop','electronics',2500,'yes');
